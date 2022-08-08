@@ -1,4 +1,5 @@
-package codewars.kyu7.visible_Dots_On_a_Die;
+package codewars.kyu7.visible_Dots_On_a_Die
+        ;
 
 import org.junit.jupiter.api.Test;
 
