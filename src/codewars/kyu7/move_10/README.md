@@ -1,0 +1,4 @@
+<div class="w-full panel bg-ui-section"><h1><a href="https://www.codewars.com/kata/57cf50a7eca2603de0000090" target="_blank">Move 10</a></h1><h3 class="wf-title-alt">Description:</h3><div class="markdown prose max-w-5xl mx-auto" id="description"><p>Move every letter in the provided string forward 10 letters through the alphabet.</p>
+<p>If it goes past 'z', start again at 'a'.</p>
+<p>Input will be a string with length &gt; 0.</p>
+</div><div class="pt-4 max-w-5xl mx-auto"><div class="mt-4"><span><i class="icon-moon-tag "></i></span><div class="keyword-tag">Fundamentals</div><div class="keyword-tag">Strings</div><div class="keyword-tag">Arrays</div></div></div></div>
