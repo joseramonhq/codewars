@@ -1,4 +1,4 @@
-package codewars.kyu8;
+package codewars.kyu8.multiply;
 
 public class Multiply {
     public static Double multiply(Double a, Double b) {
