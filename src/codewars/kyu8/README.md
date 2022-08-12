@@ -1,0 +1,2 @@
+<div class="w-full panel bg-ui-section"><h1><a href="https://www.codewars.com/kata/50654ddff44f800200000004">Multiply</a></h1><h3 class="wf-title-alt">Description:</h3><div class="markdown prose max-w-5xl mx-auto" id="description"><p>This code does not execute properly. Try to figure out why.</p>
+</div><div class="pt-4 max-w-5xl mx-auto"><div class="mt-4"><span><i class="icon-moon-tag "></i></span><div class="keyword-tag">Debugging</div><div class="keyword-tag">Fundamentals</div></div></div></div>
