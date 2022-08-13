@@ -1,0 +1,5 @@
+<div class="w-full panel bg-ui-section"><h1><a href="https://www.codewars.com/kata/5723b111101f5f905f0000a5" target="_blank">Parallel resistors</a></h1><h3 class="wf-title-alt">Description:</h3><div class="markdown prose max-w-5xl mx-auto" id="description"><p>Write the function <code>resistor_parallel</code> that receive an undefined number of resistances parallel resistors and return the total resistance.</p>
+<p>You can assume that there will be no 0 as parameter.<br>Also there will be at least 2 arguments.</p>
+<p>Formula:<br><code>total = 1 / (1/r1 + 1/r2 + .. + 1/rn)</code></p>
+<p>Examples:<br><code>resistor_parallel(20, 20)</code> will return <code>10.0</code><br><code>resistor_parallel(20, 20, 40)</code> will return <code>8.0</code></p>
+</div><div class="pt-4 max-w-5xl mx-auto"><div class="mt-4"><span><i class="icon-moon-tag "></i></span><div class="keyword-tag">Fundamentals</div></div></div></div>
