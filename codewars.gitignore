@@ -43,6 +43,7 @@
 # .idea/modules
 # *.iml
 # *.ipr
+/src/pruebas/
 
 # CMake
 cmake-build-*/
@@ -166,7 +167,7 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-/src/pruebas/
+
 
 # End of https://www.toptal.com/developers/gitignore/api/intellij,windows,java
 
