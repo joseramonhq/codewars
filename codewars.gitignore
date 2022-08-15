@@ -43,7 +43,7 @@
 # .idea/modules
 # *.iml
 # *.ipr
-/src/pruebas/
+/src/pruebas/*.java
 
 # CMake
 cmake-build-*/
