@@ -44,6 +44,7 @@
 # *.iml
 # *.ipr
 /src/pruebas/*.java
+/src/pruebas/
 
 # CMake
 cmake-build-*/
