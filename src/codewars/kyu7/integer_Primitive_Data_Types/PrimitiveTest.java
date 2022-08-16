@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class PrimitiveTest {
 
-    Primitive p = new Primitive();
+    final Primitive p = new Primitive();
 
     @Test
     public void testTypes() {

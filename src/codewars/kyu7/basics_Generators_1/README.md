@@ -6,4 +6,4 @@ Generators are very useful things in programming, in this series we will learn h
 You must complete the generator function that must increment a counter by 1 each time also if the argument is supplied (will always be a number) you must then change the counter to that number.
 <h2>Important</h2>
 The counter must start at 1 when the generator is initialized
-<p><strong>More Info: </strong><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators" target="_blank" data-turbolinks="false">Iterators and Generators (JavaScript)</a>, <a href="http://php.net/manual/en/language.generators.overview.php" target="_blank" data-turbolinks="false">Generators Overview (PHP)</a></p>
+<p><strong>More Info: </strong><a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide/Iterators_and_Generators" target="_blank" data-turbolinks="false">Iterators and Generators (JavaScript)</a>, <a href="http://php.net/manual/en/language.generators.overview.php" target="_blank" data-turbolinks="false">Generators Overview (PHP)</a></p></div>

@@ -3,7 +3,7 @@ package codewars.kyu7.find_Max_Tree_Node;
 class TreeNode {
     TreeNode left;
     TreeNode right;
-    int value;
+    final int value;
 
     public TreeNode(int value) {
         this(value, null, null);

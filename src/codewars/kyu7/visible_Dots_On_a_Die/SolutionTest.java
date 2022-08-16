@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 
 class SolutionTest {
 
-    DiceDotCount ddc = new DiceDotCount();
+    final DiceDotCount ddc = new DiceDotCount();
 
     @Test
     public void testSomething() {
