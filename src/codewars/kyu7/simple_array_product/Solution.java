@@ -4,11 +4,6 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 class Solution {
-    public static void main(String[] args) {
-        System.out.println(solve(new int[][]{{-2, -15, -12, -8, -16}, {-4, -15, -7}, {-10, -5}}));
-
-    }
-
 
     public static int solve(int[][] arr) {
         int max = Integer.MIN_VALUE;
