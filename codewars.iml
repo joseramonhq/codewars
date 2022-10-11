@@ -56,8 +56,6 @@
         <SOURCES />
       </library>
     </orderEntry>
-    <orderEntry type="library" name="hamcrest-2.2" level="project" />
-    <orderEntry type="library" name="hamcrest-2.2-sources" level="project" />
     <orderEntry type="module-library">
       <library name="JUnit5.7.0">
         <CLASSES>
@@ -74,5 +72,6 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="library" name="hamcrest-2.2" level="project" />
   </component>
 </module>
