@@ -1,0 +1,5 @@
+<div class="w-full panel bg-ui-section"><h1><a href="https://www.codewars.com/kata/517abf86da9663f1d2000003" target="_blank">Convert string to camel case
+</a></h1><h3 class="wf-title-alt">Description:</h3><div class="markdown prose max-w-5xl mx-auto overflow-x-auto break-words" id="description"><p>Complete the method/function so that it converts dash/underscore delimited words into camel casing. The first word within the output should be capitalized <strong>only</strong> if the original word was capitalized (known as Upper Camel Case, also often referred to as Pascal case). </p>
+<h3 id="examples">Examples</h3>
+<p><code>"the-stealth-warrior"</code> gets converted to <code>"theStealthWarrior"</code><br><code>"The_Stealth_Warrior"</code> gets converted to <code>"TheStealthWarrior"</code></p>
+</div><div class="pt-4 max-w-5xl mx-auto"><div class="mt-4"><span><i class="icon-moon-tag "></i></span><div class="keyword-tag">Regular Expressions</div><div class="keyword-tag">Algorithms</div><div class="keyword-tag">Strings</div></div></div></div>
