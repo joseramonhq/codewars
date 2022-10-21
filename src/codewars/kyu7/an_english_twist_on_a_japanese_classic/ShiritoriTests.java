@@ -13,6 +13,14 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 public class ShiritoriTests {
 
 
+    /**
+     * The test1 function tests the Shiritori.theGame function by creating an ArrayList of Strings
+     * and then calling the function with that list as a parameter. The expected result is an ArrayList
+     * containing only those words in the original list that were not repeated in order to form a valid
+     * shiritori game. This test checks for this behavior, and passes if it is found, or fails otherwise.
+     *
+     * @author joseramonhq@gmail.com
+     */
     @Test
     public void test1() {
         ArrayList<String> words = new ArrayList<>(Arrays.asList("dog", "goose", "elephant", "tiger", "rhino", "orc", "cat"));
@@ -22,6 +30,13 @@ public class ShiritoriTests {
 
     }
 
+    /**
+     * The test2 function tests the Shiritori.theGame function by creating an ArrayList of Strings
+     * and then calling the function with that list as a parameter. The expected result is an ArrayList
+     * containing only &quot;dog&quot; and &quot;goose&quot;. This test checks to see if this is true, and if not, throws an error message.
+     *
+     * @author joseramonhq@gmail.com
+     */
     @Test
     public void test2() {
 
@@ -30,6 +45,17 @@ public class ShiritoriTests {
         assertEquals(expected, Shiritori.theGame(words));
 
     }
+
+    /**
+     * The test3 function tests the Shiritori.theGame function by creating an ArrayList of Strings
+     * and then calling the function with that list as a parameter. The expected result is an ArrayList
+     * containing only &quot;dog&quot;, &quot;goose&quot;, &quot;elephant&quot; and &quot;tiger&quot;. This test checks to see if this is true,
+     * which it should be because those are all words in the original list that start with a vowel. If it's not,
+     * then there's something wrong with your code!
+     *
+     * @author joseramonhq@gmail.com
+     */
+
 
     @Test
     public void test3() {
@@ -48,6 +74,13 @@ public class ShiritoriTests {
 
     }
 
+    /**
+     * The TestEStrings function tests the Shiritori.theGame function by creating an ArrayList of Strings
+     * and checking if the returned ArrayList is empty.
+     *
+     * @author joseramonhq@gmail.com
+     */
+
     @Test
     public void TestEStrings() {
         ArrayList<String> words = new ArrayList<>(Arrays.asList("", "", "", "", "", "", ""));
@@ -60,6 +93,16 @@ public class ShiritoriTests {
         ArrayList<String> expected = new ArrayList<>(Arrays.asList("ab", "bc"));
         assertEquals(expected, Shiritori.theGame(words));
     }
+
+    /**
+     * The RandomTests function tests the Shiritori.theGame function by creating a list of random words and checking if the
+     * returned list is equal to what it should be. The RandomTests function runs 25 times, each time with a different set of
+     * 10 random words as input. It then checks if the returned value is equal to what it should be, and prints out whether or not
+     * they are equal in order for us to see how many times this test passed/failed. If all 25 tests pass, then we know that our
+     * Shiritori class works correctly! This test will help us ensure that our code works
+     *
+     * @author joseramonhq@gmail.com
+     */
 
     @Test
     public void RandomTests() {
@@ -90,6 +133,16 @@ public class ShiritoriTests {
     }
 
     public static class ShiritoriCheck {
+        /**
+         * The theGame function takes a list of strings and returns the longest string
+         * that can be made from the other strings in the list.  If no such string exists,
+         * it returns an empty arraylist.  The function assumes that all of the input strings are non-empty,
+         * and that they all have at least one character.  It also assumes that there is at least one valid solution to this problem (i.e., if you were to remove every single character from each word in this game, then there would be no way to make a valid sentence).
+         *
+         * @param words Store the words that are input by the user
+         * @return A list of strings
+         * @author Trelent
+         */
         public static List<String> theGame(ArrayList<String> words) {
             if (words.isEmpty() || words.get(0).equals("")) {
                 return new ArrayList<>();
