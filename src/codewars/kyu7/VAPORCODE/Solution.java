@@ -1,4 +1,4 @@
-package codewars.kyu8.VAPORCODE;
+package codewars.kyu7.VAPORCODE;
 
 public class Solution {
     public static String vaporcode(String s) {

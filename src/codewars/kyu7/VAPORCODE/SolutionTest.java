@@ -1,4 +1,4 @@
-package codewars.kyu8.VAPORCODE;
+package codewars.kyu7.VAPORCODE;
 
 import org.junit.jupiter.api.Test;
 
