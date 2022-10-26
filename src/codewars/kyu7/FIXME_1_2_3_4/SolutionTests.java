@@ -5,7 +5,7 @@ import org.junit.jupiter.api.Test;
 import java.util.*;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertTrue;
+import static org.junit.jupiter.api.Assertions.assertNotNull;
 
 public class SolutionTests {
 
@@ -38,22 +38,22 @@ public class SolutionTests {
         final String errMsg = "Don't try to re-write the API. The getNumber should return a MyNumber enum!";
 
         // Make sure a MyNumber is returned
-        assertTrue(Dinglemouse.getNumber("one") instanceof Dinglemouse.MyNumber, errMsg);
-        assertTrue(Dinglemouse.getNumber("two") instanceof Dinglemouse.MyNumber, errMsg);
-        assertTrue(Dinglemouse.getNumber("three") instanceof Dinglemouse.MyNumber, errMsg);
+        assertNotNull(Dinglemouse.getNumber("one"), errMsg);
+        assertNotNull(Dinglemouse.getNumber("two"), errMsg);
+        assertNotNull(Dinglemouse.getNumber("three"), errMsg);
 
-        assertTrue(Dinglemouse.getNumber("one") instanceof Enum, errMsg);
-        assertTrue(Dinglemouse.getNumber("two") instanceof Enum, errMsg);
-        assertTrue(Dinglemouse.getNumber("three") instanceof Enum, errMsg);
+        assertNotNull(Dinglemouse.getNumber("one"), errMsg);
+        assertNotNull(Dinglemouse.getNumber("two"), errMsg);
+        assertNotNull(Dinglemouse.getNumber("three"), errMsg);
 
         // Try to ensure it's an enum
-        assertEquals(errMsg, "ONE", "" + Dinglemouse.getNumber("one"));
-        assertEquals(errMsg, "TWO", "" + Dinglemouse.getNumber("two"));
-        assertEquals(errMsg, "THREE", "" + Dinglemouse.getNumber("three"));
+        assertEquals("ONE", "" + Dinglemouse.getNumber("one"), errMsg);
+        assertEquals("TWO", "" + Dinglemouse.getNumber("two"), errMsg);
+        assertEquals("THREE", "" + Dinglemouse.getNumber("three"), errMsg);
 
-        assertEquals(errMsg, "ONE", "" + Dinglemouse.MyNumber.valueOf("ONE"));
-        assertEquals(errMsg, "TWO", "" + Dinglemouse.MyNumber.valueOf("TWO"));
-        assertEquals(errMsg, "THREE", "" + Dinglemouse.MyNumber.valueOf("THREE"));
+        assertEquals("ONE", "" + Dinglemouse.MyNumber.valueOf("ONE"), errMsg);
+        assertEquals("TWO", "" + Dinglemouse.MyNumber.valueOf("TWO"), errMsg);
+        assertEquals("THREE", "" + Dinglemouse.MyNumber.valueOf("THREE"), errMsg);
 
         assertEquals(0, Dinglemouse.MyNumber.valueOf("ONE").ordinal(), errMsg);
         assertEquals(1, Dinglemouse.MyNumber.valueOf("TWO").ordinal(), errMsg);
@@ -66,7 +66,7 @@ public class SolutionTests {
 
     // =====================
 
-    private static Map<String, Integer> map = new HashMap<String, Integer>() {{
+    private static Map<String, Integer> map = new HashMap<>() {{
         put("one", 1);
         put("two", 2);
         put("three", 3);
@@ -91,7 +91,7 @@ public class SolutionTests {
             int keyIdx = (int) (Math.random() * keys.size());
             String key = keys.get(keyIdx);
             int expected = map.get(key);
-            System.out.println(String.format("Random Test #%d %s => %d", r, key, expected));
+            System.out.printf("Random Test #%d %s => %d%n", r, key, expected);
             assertEquals(expected, Dinglemouse.getNumber(key).intValue());
         }
     }

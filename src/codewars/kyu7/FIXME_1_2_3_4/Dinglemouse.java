@@ -6,7 +6,7 @@ import java.util.Map;
 public class Dinglemouse {
 
     private static final Map<String, MyNumber> cache = new HashMap<>();
-    private MyNumber a = MyNumber.ONE;
+    private static MyNumber a = MyNumber.ONE;
 
     enum MyNumber {
         ONE(1, "one", "ichi", "un"),
