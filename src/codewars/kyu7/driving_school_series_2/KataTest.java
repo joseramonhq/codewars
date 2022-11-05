@@ -20,7 +20,7 @@ class KataTest {
     }
 
     @Test
-    void rendomTest() {
+    void randomTest() {
         Random rand = new Random();
         for (int i = 0; i < 100; i++) {
             final int n = rand.nextInt(1000000) + 1;
